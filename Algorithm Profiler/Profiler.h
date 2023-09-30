@@ -41,6 +41,10 @@ private:
 
 public:
 
+    /*
+    Profiles the passed function using the data provided
+    Graphs (time vs data size) and stores it as "filename.png"
+    */
     Profiler(std::vector<std::vector<T>> vec,
         const std::function<void(std::vector<T>&)>& func,
         const std::string filename)
@@ -68,6 +72,12 @@ public:
         std::cout << "Finished Profiling [" << filename << "]" << std::endl;
     }
 
+    /*
+    Displays the results
+    Stores:
+        1- All the results in AllResults.md
+        2- The fastest performing algorithms for each data size in Fastest.md
+    */
     static void displayAndSaveAllResults()
     {
         std::ofstream allResultsFile("AllResults.md");
