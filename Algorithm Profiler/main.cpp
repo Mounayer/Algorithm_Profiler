@@ -53,6 +53,7 @@ int main() {
     Profiler<int>(testData, selectionSort<int>, "Selection Sort");
     Profiler<int>(testData, mergesort<int>, "Merge Sort");
     Profiler<int>(testData, quicksort<int>, "Quick Sort");
+    // Simply call the Profiler constructor to profile a sorting algorithm with the data set.
 
     Profiler<int>::displayAndSaveAllResults();
 
