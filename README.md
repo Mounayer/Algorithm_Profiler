@@ -7,7 +7,7 @@ This is an algorithm profiler made using C++17, using [gnuplot](http://www.gnupl
     - Make sure to have C++ 17
     - Install matplotplusplus using vckpg or any other package manager
     - Install gnuplot and make sure to add it to the system's PATH environment variable
-    - Modify data size if you wish, then run
+    - Modify data size if you wish or add new algorithms, then run
 
 ## Purpose
 
