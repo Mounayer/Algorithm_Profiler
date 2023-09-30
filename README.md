@@ -1,4 +1,4 @@
-# Algorithm_Profiler
+# Algorithm Profiler
 
 This is an algorithm profiler made using C++17, using [gnuplot](http://www.gnuplot.info/) and [matplotplusplus](https://github.com/alandefreitas/matplotplusplus).
 
