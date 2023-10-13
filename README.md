@@ -4,7 +4,7 @@ This is an algorithm profiler made using C++17, using [gnuplot](http://www.gnupl
 
 ## How to run
 
-    - Make sure to have C++ 17
+    - Make sure use have C++ 17
     - Install matplotplusplus using vckpg or any other package manager
     - Install gnuplot and make sure to add it to the system's PATH environment variable
     - Modify data size if you wish or add new algorithms, then run
@@ -19,7 +19,7 @@ If you would like to see the results of QuickSort, MergeSort, BubbleSort, Select
 
 ## Fastest Sort For Each Data Size
 
-If you would liek to see the results of the fastest Sorting algorithm for each of the data sizes I tested on my system, you can do so here: [Fastest Algorithms For Each Data Size](https://github.com/Mounayer/Algorithm_Profiler/blob/main/Algorithm%20Profiler/Fastest.md)
+If you would like to see the results of the fastest Sorting algorithm for each of the data sizes I tested on my system, you can do so here: [Fastest Algorithms For Each Data Size](https://github.com/Mounayer/Algorithm_Profiler/blob/main/Algorithm%20Profiler/Fastest.md)
 
 ## Graphing
 
